@@ -5,3 +5,5 @@ FROM node:0.12-onbuild
 
 # Expose port.
 EXPOSE 3000
+EXPOSE 80
+EXPOSE 443
