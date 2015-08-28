@@ -26,7 +26,7 @@ else {
 		};
 		var httpsServer = https.createServer(credentials, app);
 		httpsServer.listen(port, null, function() {
-			console.log('HTTPS server started: https://localhost');
+			console.log('HTTPS server started: https://wyangsun-stackedit.daoapp.io');
 		});
 		port = 80;
 	}
